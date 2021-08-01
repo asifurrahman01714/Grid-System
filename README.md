@@ -53,3 +53,7 @@
             height: 100vh;
 
 12. Using grid-template-areas we can visually decorate our layout.
+
+13. Using auto-fit and minmax function is a best way for responsiveness. 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-rows: repeat(3, 1fr);

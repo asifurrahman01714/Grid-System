@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Design</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         /* Grid style  */
+         .container {
+            display: grid ;  
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-rows: repeat(3, 1fr);
+            height: 100vh;
+            grid-gap: 5px;
+           
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="first-child">Header</div>
+        <div class="menu">Menu</div>
+        <div class="content">Content</div>
+        <div class="c5">5</div>
+        <div class="footer">Footer . Go to <a href="index.html">Index File</a></div>
+    
+    </div>
+</body>
+</html>
