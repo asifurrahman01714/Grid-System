@@ -11,13 +11,17 @@
          .container {
             display: grid ; 
             height: 100vh; 
-            grid-template-columns: repeat(2,90px);
-            grid-template-rows: repeat(3, 90px);
+            grid-template-columns: repeat(3,90px);
+            grid-template-rows: repeat(2, 90px);
             grid-gap: 5px;
             justify-content: center;
             align-content: center;
         }
 
+        .menu{
+            /* justify-content: center; This will not work*/
+            justify-self: center;
+        }
 
     </style>
 

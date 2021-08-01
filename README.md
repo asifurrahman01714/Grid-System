@@ -61,8 +61,10 @@
 14. Using auto row height :
             grid-template-rows: repeat(1, 1fr);
             grid-auto-rows: 1fr;
-            
+
 15. Justify content and align content will give the exact middle position of a content. 
 
             justify-content: center;
             align-content: center;
+
+16. To justify an item personally, You have to use                      justify-self: center; 
