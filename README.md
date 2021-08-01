@@ -51,3 +51,5 @@
 
             grid-template-rows: 50px 1fr 1fr 50px;
             height: 100vh;
+
+12. Using grid-template-areas we can visually decorate our layout.
