@@ -17,3 +17,8 @@
 7. For same width and height or repeating rows and columns we can short our code by using repeat() function. like- 
 
             grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+
+8. for giving full width of a special content use grid-column-start and end.
+
+            grid-column-start: 1;
+            grid-column-end: 3;
