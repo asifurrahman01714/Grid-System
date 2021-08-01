@@ -57,3 +57,7 @@
 13. Using auto-fit and minmax function is a best way for responsiveness. 
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             grid-template-rows: repeat(3, 1fr);
+
+14. Using auto row height :
+            grid-template-rows: repeat(1, 1fr);
+            grid-auto-rows: 1fr;
