@@ -1,5 +1,5 @@
 # Grid-System
-
+# columns and rows for main container and column and row for single element.
 1. At first you have to style as display: grid to design your layout according to grid system.
 
 2. Add grid-template-columns and rows. where the pixel is the width for columns and height for rows
@@ -46,3 +46,8 @@
 10. Making 12 grid :
 
             grid-template-columns: repeat(12, 1fr);
+
+11. Maintaining height of rows. At first you have to give a height of a container :
+
+            grid-template-rows: 50px 1fr 1fr 50px;
+            height: 100vh;
