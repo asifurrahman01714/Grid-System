@@ -8,4 +8,6 @@
             grid-template-columns: 1fr 2fr;  
             grid-template-rows: 1fr 2fr;
 
+6. use one line codding for both columns and rows. like-
 
+            grid-template: 1fr 2fr / 1fr 1fr 1fr;
