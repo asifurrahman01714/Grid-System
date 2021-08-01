@@ -11,3 +11,9 @@
 6. use one line codding for both columns and rows. like-
 
             grid-template: 1fr 2fr / 1fr 1fr 1fr;
+            Which is actually-
+            grid-template : rows / columns;
+
+7. For same width and height or repeating rows and columns we can short our code by using repeat() function. like- 
+
+            grid-template: repeat(3, 1fr) / repeat(2, 1fr);
