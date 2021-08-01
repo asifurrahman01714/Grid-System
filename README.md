@@ -1,9 +1,13 @@
 # Grid-System
 
 1. At first you have to style as display: grid to design your layout according to grid system.
+
 2. Add grid-template-columns and rows. where the pixel is the width for columns and height for rows
+
 3. We can add grid row and column gap by grid-row-gap and grid-column-gap
+
 4. For same gap in row and column write grid-gap only
+
 5. For responsive pixel is disgusting. So use fraction unit like-
             grid-template-columns: 1fr 2fr;  
             grid-template-rows: 1fr 2fr;
@@ -25,10 +29,20 @@
 
 9. Grid column start and end shortcut :
  
-             /* grid-column-start: 1;
-            grid-column-end: 3; */
+            grid-column-start: 1;
+            grid-column-end: 3; 
 
-            /* shortcut of start and end . */
-            /* grid-column: 1/3;
-             or  */
+            shortcut of start and end .
+            grid-column: 1/3;
+             or  
             grid-column: 1/-1
+
+            That means. This content will start from first column and end to the 3 column. which is last column.
+
+            Third syntax is 
+            grid-column : 1/ span 2;
+            grid-column : start from 1 column / and span 2;
+            
+10. Making 12 grid :
+
+            grid-template-columns: repeat(12, 1fr);
