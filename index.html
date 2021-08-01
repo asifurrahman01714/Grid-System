@@ -5,34 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout Design</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        div{
-            color:white;
-        }
-        div:nth-child(1) {
-            background: red;
-        }
-        div:nth-child(2) {
-            background: black;
-        }
-        div:nth-child(3) {
-            background: cyan;
-        }
-        div:nth-child(4) {
-            background: purple;
-        }
-        div:nth-child(5) {
-            background: palegreen;
-        }
-        div:nth-child(6) {
-            background: rgb(12, 38, 104);
-        }
-
          /* Grid style  */
          .container {
             display: grid ;
             grid-template-columns: 100px auto 100px;  
-            grid-template-rows: 200px 200px; 
+            grid-template-rows: 50px 50px;
+            grid-row-gap:5px;
+            grid-column-gap: 5px; 
         }
     </style>
 
@@ -40,7 +21,7 @@
 </head>
 <body>
     <div class="container">
-        <div>1</div>
+        <div class="first-child">1</div>
         <div>2</div>
         <div>3</div>
         <div>4</div>

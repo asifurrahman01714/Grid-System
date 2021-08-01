@@ -1,0 +1,22 @@
+div{
+    color:white;
+    text-align: center;
+}
+.first-child {
+    background: red;
+}
+div:nth-child(2) {
+    background: black;
+}
+div:nth-child(3) {
+    background: cyan;
+}
+div:nth-child(4) {
+    background: purple;
+}
+div:nth-child(5) {
+    background: palegreen;
+}
+div:nth-child(6) {
+    background: rgb(12, 38, 104);
+}
