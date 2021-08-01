@@ -22,3 +22,13 @@
 
             grid-column-start: 1;
             grid-column-end: 3;
+
+9. Grid column start and end shortcut :
+ 
+             /* grid-column-start: 1;
+            grid-column-end: 3; */
+
+            /* shortcut of start and end . */
+            /* grid-column: 1/3;
+             or  */
+            grid-column: 1/-1
